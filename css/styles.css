@@ -1,0 +1,164 @@
+body{
+    font-family: "Montserrat";
+}
+/* ------title --------*/
+/* 1-navbar */
+#title{
+    background-color: #ff4c68;
+}   
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.navbar-nav{
+    font-size: 1.5rem;
+}
+.nav-item{
+    padding: 0 18px 0 18px;
+}
+/* 2-heading */
+#heading-line{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight:900;
+    color: white;
+
+}
+#title .container-fluid{
+    padding:3% 15% 7% 15%;
+}
+.dog-image{
+    margin-top: 3rem;
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    left: 2.5rem;
+}
+
+/* features */
+#features{
+    padding: 5rem 0 5rem 0;
+    position: relative;
+    background-color: white; 
+    text-align: center;
+}
+
+.feature-icon{
+    color: #ef8172;
+    text-align: center;
+    padding: 1rem;
+}
+
+.feature-icon:hover{
+    color:#ff4c68;
+}
+
+.feature-content h3{
+    font-family: "Montserrat-bold";
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.feature-content p{
+    padding: 0 5rem 0 5rem;
+    font-family: "Montserrat-bold";
+    color: #8f8f8f;
+}
+
+/* testimonial */
+
+#testimonials{
+    padding: 7% 13%;
+    text-align: center;
+    background-color: #ef8172;
+    color : white;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.testimonial-image{
+    width:15%;
+    border-radius: 100%;
+}
+/* press */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+.carousel-item{
+    padding:5% 12%;
+}
+
+/* pricing */
+#pricing {
+    padding: 7rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.price-heading{
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+#pricing p{ 
+ padding-bottom: 1rem;
+ color: #8f8f8f;
+}
+.card-title{
+    font-weight: 500;
+
+}
+.card-body h2{
+    font-weight: 600;
+}
+
+/* call to action */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 4rem 5rem;
+}
+#cta h3{
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* footer */
+#footer{
+    margin-top: 3rem;
+    padding:3rem;
+    text-align: center;
+}
+
+.brand-icon{
+    margin: 0 0.7rem;
+}
+
+/* media query at 1100px */
+
+@media (max-width :1100px) {
+    #title{
+        text-align: center;
+    }
+    .dog-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
